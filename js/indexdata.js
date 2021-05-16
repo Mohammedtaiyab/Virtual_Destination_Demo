@@ -1,22 +1,3 @@
-<!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
-
-<!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
-
-<script>
-  // Your web app's Firebase configuration
-  var firebaseConfig = {
-    apiKey: "AIzaSyDLso8yWn3VfKZAQL5z1wEyFTqtm7uaj_8",
-    authDomain: "virtual-destination-a02d1.firebaseapp.com",
-    projectId: "virtual-destination-a02d1",
-    storageBucket: "virtual-destination-a02d1.appspot.com",
-    messagingSenderId: "462449117260",
-    appId: "1:462449117260:web:40bc844d8cc33e34fa4ce9"
-  };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-</script>
 var bookinglist=[];
 function flightbooking(){
     var airlineopt=document.getElementById("airlineopt");
