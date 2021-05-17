@@ -1,9 +1,9 @@
 var bookinglist=[];
 function flightbooking(){
-    var airlineopt=document.getElementById("airlineopt");
-   var from= airlineopt.options[airlineopt.selectedIndex].text;
-   var airlineoptto=document.getElementById("airlineoptto");
-   var to= airlineoptto.options[airlineoptto.selectedIndex].text;
+    // var airlineopt=document.getElementById("airlineopt");
+   var from=document.getElementById("airlineopt").value;
+//    var airlineoptto=document.getElementById("airlineoptto");
+   var to=document.getElementById("airlineoptto").value;
    var depardate=document.getElementById('departuredate').value;
 
    var selectcoach=document.getElementById("selectcoach");
